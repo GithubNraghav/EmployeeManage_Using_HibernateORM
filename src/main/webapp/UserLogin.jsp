@@ -6,17 +6,31 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body style="background-color: #8EC5FC">
 
 
-<div style="text-align:center">
+<div style="text-align:center;margin:auto; width:400px;">
+
+<h1>User Login</h1>
 
 <form action="verifyuserServlet" method="post">
+<table>
 
-Enter Username:<input type="text" name="username"><br>
-Enter Password:<input type="password" name="password"><br>
-Enter userid:<input type="text" name="userid"><br>
-<button type="submit">Submit</button>
+<tr>
+<td><h3>Enter Username:</h3></td><td><input type="text" name="username"></td>
+</tr><br>
+
+<tr>
+<td><h3>Enter Password:</h3></td><td><input type="password" name="password"></td>
+</tr><br>
+
+<tr>
+<td><h3>Enter UserId:</h3></td><td><input type="text" name="userid"></td>
+</tr><br>
+
+</table>
+<br><br>
+<button type="submit" style="width:100px;height:30px;">Submit</button>
 </form>
 
 
